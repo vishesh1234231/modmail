@@ -215,4 +215,4 @@ client.on("message", async message => {
   }
 })
 
-client.login(process.env.TOKEN); // Log the bot in
+client.login("ODI5MjI5MjExNzM3OTE1Mzky.YG1F4g.yKHo6LFjrU08PytojPtrUT3reLk"); // Log the bot in
