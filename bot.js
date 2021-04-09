@@ -11,6 +11,11 @@ client.on("ready", () => {
   console.log(`Successfully logged in as ${client.user.tag}.`)
   console.log(`Guild ID: ${config.guild}\nLogs channel ID: ${config.log}\nPrefix: ${config.prefix}`)
 })
+client.user.setActivity("DM me to ModMail", {
+        type: "STREAMING",
+	url: "https://www.youtube.com/c/BrainiacVishesh/"
+
+});
 
 client.on("message", async message => {
   
